@@ -17,9 +17,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=quizapp
-      - POSTGRES_PASSWORD=quizapp
-      - POSTGRES_DB=quizapp
+      - POSTGRES_USER=PROJECT_NAME
+      - POSTGRES_PASSWORD=PROJECT_NAME
+      - POSTGRES_DB=PROJECT_NAME
 
 volumes:
   postgres_data:
