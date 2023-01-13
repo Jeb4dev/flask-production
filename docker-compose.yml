@@ -17,9 +17,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=PROJECT_NAME
-      - POSTGRES_PASSWORD=PROJECT_NAME
-      - POSTGRES_DB=PROJECT_NAME
+      - POSTGRES_USER=CHANGE_ME
+      - POSTGRES_PASSWORD=CHANGE_ME
+      - POSTGRES_DB=CHANGE_ME_dev
 
 volumes:
   postgres_data:
