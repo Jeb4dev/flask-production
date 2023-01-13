@@ -17,7 +17,8 @@ from os import environ
 
 from flask.cli import FlaskGroup
 
-from project import db
+# app is required for running the (uvicorn) server
+from project import db, app
 
 cli = FlaskGroup()
 
